@@ -2,7 +2,7 @@
 layout: post
 title: Projet TEN'UP
 subtitle: Refonte de l'application de simulation de classement FFT.
-cover-img: /assets/img/path.jpg
+cover-img: https://wallpapercrafter.com/desktop/37554-Yoga-beach-sea-blue-sky.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
