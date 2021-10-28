@@ -8,22 +8,37 @@ share-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/14581
 tags: [books, test]
 ---
 
-# Etude cas : Refonte application mobile TEN'UP de la Fédération Française de Tennis
+# Etude cas : TEN'UP - Fédération Française de Tennis
+
+## Introduction
+
+Ten’Up, c’est l'application mobile gratuite pour organiser facilement sa pratique du tennis au quotidien. Elle est accessible à tous les pratiquants en France, licenciés ou non.
+
+**Mon rôle dans ce projet** : UX/UI Designer 
+
+**Durée du projet** : 3 mois
+
+**Méthodes de travail** : Questionnaires, Interviews, User journey map, Card sorting, Carte d'affinité, Wireframes, Prototypes
+
+**Outils** :  Adobe XD, Figma, Sketch, Balsamiq, Optimal Sort, Flutter
+
+## Contexte du projet
+
+La Fédération Française de Tennis souhaite améliorer la note de son application TEN'UP sur les stores Android et Apple. Au début du projet, la note globale attribuée à l'appli est 3,4 sur 5. La FFT a pour cible de gagner 1 point supplémentaire sur la note globale. Pour se faire, elle oriente son projet vers une refonte UX/UI basée sur des recherches utilisateurs approfondies.
 
 ## Objectifs du projet
 
 * Identifier les points de frictions durant le parcours utilisateur
 * Redesigner le parcours utilisateur en transformant les frictions en opportunités
 * Refondre le design system et l'UI de l'application mobile Android & iOS
-* Gagner +1 point sur la note attribuée sur les stores
- 
+* Proposer des prototypes fonctionnels
 
-# Les phases du projet
+# Déroulement du projet
 
 ## **L'exploration**
 Comprendre les besoins et les usages des utilisateurs.
 
-__Objectif__ : Recueillir du verbatim afin de déceler des opportunités intéressantes mais aussi afin de créer des profils types utilisateurs appelés “personas”.
+__Objectif__ : Recueillir du verbatim afin de déceler des opportunités intéressantes et identifier des profils types d'utilisateurs appelés “personas”.
 
 ### Identification des frictions via le relevé des avis utilisateurs sur les stores d'applications
 
@@ -105,8 +120,7 @@ A la suite de ces recherches j'ai pu établir plusieurs profils utilisateurs.
 
 
 #### APPÉTENCE TECHNIQUE & MULTIMEDIA
-███████████████████████████████████████████████████████████░░<br> 
-débutant                                                                                                                                      expert
+Expert
 
 #### À PROPOS
 
@@ -114,15 +128,36 @@ Gildas possède l'application TEN'UP depuis sa sortie sur smartphone.
 Il l'utilise principalement pour consulter les tournois autour de chez lui et pour simuler son prochain classement après chaque match qu'il dispute.
 
 Il regrette que la simulation de classement soit compliquée et chronophage à cause de successions d'écrans mal pensés.
-Il en est rendu à utiliser une feuille excel sur son ordinateur qu'il à réalisé lui-même.
+Il en est rendu à utiliser une feuille excel sur son ordinateur qu'il a réalisé lui-même.
 
 Gildas donne la not de 3.5/5 à l'application.
 
 ## **L'idéation**
-Comme son nom l’indique, en se basant sur les informations préalablement recueillies durant la phase d’exploration, il s’agit de produire des idées, émettre des hypothèses et trouver des solutions pour répondre au mieux au besoin utilisateur.
+Grâce à la collecte des informations utilisateurs durant la phase d’exploration, il s’agit maintenant de produire des idées, émettre des hypothèses et trouver des solutions pour concrétiser les opportunités.
+
+J'utilise pour cela la méthode du card sorting.
+Avec la maîtrise d'ouvrage, je dispose les idées que j'ai identifiées sur des post-it. Un post-it = une idée.
+
+Je demande ensuite aux participants de regrouper les pots-it selon par thématique.
+
+Ci-dessous le tableau que j'ai obtenu.
+
+| Classement  | Réservation  | Paiement  | UI  | 
+|---|---|---|---|
+| Classement instantanée  | Réservation court facile  |  Sécurisé | Mode sombre |
+| Statistiques claires | Inscription tournoi | Intégré  | Pop-up intrusive  |
+
+La cible est très claire, 4 grands axes de travail, classés par ordre de priorité de gauche à droite, et de haut en bas.
 
 ## **La conception**
 Aussi appelée phase de génération, le but de cette étape est de produire des représentations physiques (wireframes, maquettes, prototypes…) des solutions envisageables.
+
+La wireframes est le schéma fonctionnel basse-fidélité de l'application.
+- Il facilite ainsi le travail d’équipe.
+- Il aide à estimer le temps à passer et donc à chiffrer le coût.  Elle permet aussi une maîtrise des ressources (temps et argent).
+Le troisième avantage est de donner vie à vos idées. Car une fois formalisées, vos idées seront concrètes, tangibles. En effet, couchées sur papier, ou à l’aide d’un logiciel, elles seront plus facilement exploitables : et par vous, et par les différentes équipes impliquées dans ce projet.
+
+
 
 
 ## **L'évaluation**
