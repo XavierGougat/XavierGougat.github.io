@@ -150,13 +150,20 @@ Ci-dessous le tableau que j'ai obtenu.
 La cible est très claire, 4 grands axes de travail, classés par ordre de priorité de gauche à droite, et de haut en bas.
 
 ## **La conception**
-Aussi appelée phase de génération, le but de cette étape est de produire des représentations physiques (wireframes, maquettes, prototypes…) des solutions envisageables.
+Produire des représentations physiques (wireframes, maquettes, prototypes…) des solutions envisageables.
 
-La wireframes est le schéma fonctionnel basse-fidélité de l'application.
+La wireframe est le schéma fonctionnel basse-fidélité et moyenne fidélité de l'application.
 - Il facilite ainsi le travail d’équipe.
-- Il aide à estimer le temps à passer et donc à chiffrer le coût.  Elle permet aussi une maîtrise des ressources (temps et argent).
-Le troisième avantage est de donner vie à vos idées. Car une fois formalisées, vos idées seront concrètes, tangibles. En effet, couchées sur papier, ou à l’aide d’un logiciel, elles seront plus facilement exploitables : et par vous, et par les différentes équipes impliquées dans ce projet.
+- Il aide à estimer le temps à passer et donc à chiffrer 
 
+**Wireframes basse fidélité**
+<img src="../assets/img/low-fi.png" alt="Low-Fi" />
+
+**Wireframes moyenne fidélité**
+<img src="../assets/img/mid-fi.png" alt="Mid-Fi" />
+
+**Maquettes haute fidélité**
+<img src="../assets/img/hi-fi.png" alt="Hi-Fi" />
 
 
 
