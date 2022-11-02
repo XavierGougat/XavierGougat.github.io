@@ -18,9 +18,9 @@ Ten’Up, c’est l'application mobile gratuite pour organiser facilement sa pra
 
 **Durée du projet** : 3 mois
 
-**Méthodes de travail** : Questionnaires, Interviews, User journey map, Card sorting, Carte d'affinité, Wireframes, Prototypes
+**Méthodes de travail** : Interviews, User journey map, Card sorting, MoSCoW, Wireframes, Prototypes
 
-**Outils** :  Adobe XD, Figma, Sketch, Balsamiq, Optimal Sort, Flutter
+**Outils** :  Adobe XD, Figma, Balsamiq, Optimal Sort, Flutter
 
 ## Contexte du projet
 
@@ -40,7 +40,7 @@ Comprendre les besoins et les usages des utilisateurs.
 
 __Objectif__ : Recueillir du verbatim afin de déceler des opportunités intéressantes et identifier des profils types d'utilisateurs appelés “personas”.
 
-### Identification des frictions via le relevé des avis utilisateurs sur les stores d'applications
+### Identification des frictions via un relevé des avis utilisateurs sur les stores d'applications mobiles
 
 Frictions détectées au sujet de la fonctionnalité **"simulation de classement"**.
 ![avis-simulation-1](../assets/img/TENUP/avis-simulation-1.png "Avis fonctionnalité silmulation classement n°1")
@@ -72,14 +72,15 @@ Il m'a accordé un entretien téléphonique rapide dont voici la retranscription
 
 > "
 > 
-> _L'application TEN'UP telle qu'elle est proposée aujourd'hui est difficilement utilisable par les licenciés. Il faut d'abord ouvrir un compte en ligne puis le valider en accédant à sa boite mail. Alors que la FFT pourrait très bien nous reconnaitre grâce à notre numéro unique de licencié._
+> _L'application TEN'UP telle qu'elle est proposée aujourd'hui est difficilement utilisable par les licenciés. Il faut d'abord ouvrir un compte en ligne puis le valider en accédant à sa boite mail. Alors que la FFT pourrait très bien nous attribuer un compte lors de l'émission de la licence._
 >
 > _L'application est lente, elle met environ 30 secondes à s'allumer au démarrage, puis l'enchainement des écrans laisse toujours apparaitre une balle de tennis en guise d'attente de l'écran suivant.
 Les couleurs sont agressives, notamment lors d'utilisation dans un environnement peu éclairé (le matin dans la voiture avant les championnats, ou le soir après l'entraînement)._
 >
-> _Le système de simulation du classement future est opaque. En plus de ça la simulation ne donne pas le même résultat une fois sur deux. Le choix des options lors de l'ajout des matchs n'est pas très visible et les libellés ne sont pas très explicites._
+> _Le système de simulation du classement future est opaque. La simulation ne donne pas le même résultat une fois sur deux. Le choix des options lors de l'ajout des matchs n'est pas très visible et les libellés ne sont pas très explicites._
 >
-> _En ce qui concerne le module de réservation des courts, l'affichage des crénéaux horaires laisse place au doute. Dans mon club on peut réserver à la demi-heure, or l'application bloque des créneaux complets d'1h._
+> _En ce qui concerne le module de réservation des courts, l'affichage des crénéaux horaires laisse place au doute. Dans mon club on peut réserver à la demi-heure, or l'application bloque des créneaux complets d'1h.
+> Quand l'horaire de réservation est dépassée, par exemple, si j'arrive au bord du court à 16h02 pour une réservation du créneau de 16h, on ne voit plus les réservations. Pas pratique quand on le club dispose de beaucoup de courts, et que certains joueurs dépassent
 >
 > _Enfin, le système de paiement ouvre une page internet en dehors de l'application, page qui n'est pas aux couleurs ni de l'application TEN'UP, ni de la FFT (Fédération Française de Tennis). Ça de donne pas envie d'y saisir ses informations bancaires.
 En plus la dernière fois, j'ai été prélevé deux fois lors de l'inscription au tournoi interne de mon club._
@@ -130,7 +131,7 @@ Il l'utilise principalement pour consulter les tournois autour de chez lui et po
 Il regrette que la simulation de classement soit compliquée et chronophage à cause de successions d'écrans mal pensés.
 Il en est rendu à utiliser une feuille excel sur son ordinateur qu'il a réalisé lui-même.
 
-Gildas donne la not de 3.5/5 à l'application.
+Gildas donne la note de 3.5/5 à l'application.
 
 ## **L'idéation**
 Grâce à la collecte des informations utilisateurs durant la phase d’exploration, il s’agit maintenant de produire des idées, émettre des hypothèses et trouver des solutions pour concrétiser les opportunités.
@@ -142,12 +143,45 @@ Je demande ensuite aux participants de regrouper les pots-it selon par thématiq
 
 Ci-dessous le tableau que j'ai obtenu.
 
-| Classement  | Réservation  | Paiement  | UI  | 
-|---|---|---|---|
-| Classement instantanée  | Réservation court facile  |  Sécurisé | Mode sombre |
-| Statistiques claires | Inscription tournoi | Intégré  | Pop-up intrusive  |
+<style>
+    .heatMap {
+        width: 70%;
+        text-align: center;
+    }
+    .heatMap th {
+        background: blue;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .heatMap tr:nth-child(1) { background: grey; }
+    .heatMap tr:nth-child(2) td:nth-child(2) { background: aquamarine; color:black;}
+    .heatMap tr:nth-child(2) td:nth-child(3) { background: aquamarine; color:black;}
+    .heatMap tr:nth-child(3) td:nth-child(2) { background: darkturquoise; color:black;}
+    .heatMap tr:nth-child(3) td:nth-child(3) { background: darkturquoise; color:black;}
+    .heatMap tr:nth-child(2) td:nth-child(4) { background: lightpink; color:black; }
+    .heatMap tr:nth-child(2) td:nth-child(5) { background: lightpink; color:black; }
+    .heatMap tr:nth-child(3) td:nth-child(4) { background: lightcoral; color:black; }
+    .heatMap tr:nth-child(3) td:nth-child(5) { background: lightcoral; color:black; }
+    .heatMap td:nth-child(1) { background: blue; }
+</style>
+
+<div class="heatMap">
+
+|| Valeur élevée || Valeur faible ||
+|---|---|---|---|---|
+|| _Classement_  | _UI_  | _Paiement_  | _Réservation_ | 
+| **Complexité faible** | Classement instantanée  | Pop-intrusive | Sécurisé | Réservation court facile  |
+| **Complexité elevée** | Statistiques claires | Refonte Design System  | Intégré  | Inscription tournoi |
+
+</div>
 
 La cible est très claire, 4 grands axes de travail, classés par ordre de priorité de gauche à droite, et de haut en bas.
+
+Méthode MoSCoW :
+- <span style="background-color: aquamarine; color:black;">Must have</span>
+- <span style="background-color: darkturquoise; color:black;">Should have</span>
+- <span style="background-color: lightpink; color:black;">Could have</span>
+- <span style="background-color: lightcoral; color:black;">Won't have</span>
 
 ## **La conception**
 Produire des représentations physiques (wireframes, maquettes, prototypes…) des solutions envisageables.
@@ -171,7 +205,3 @@ La wireframe est le schéma fonctionnel basse-fidélité et moyenne fidélité d
 Les solutions produites vont pouvoir êtres testées auprès des utilisateurs et ainsi être validées ou non : c’est ce qu’on appelle les tests utilisateurs. Cette étape permet aussi de récolter des feedbacks afin d’améliorer les travaux réalisés.
 
 Ce processus systémique peut être adapté selon les besoins du client.
-
-Les phases de recherche, de compréhension et de récolte des besoins utilisateurs occupe une place importante. Il va y avoir également un travail très important au niveau de l’ergonomie, de l’évaluation et de la validation des hypothèses émises lors de l’étape d’idéation par le biais de différents moyens (SUS, tests utilisateurs, attrakdiff…)
-
-C’est en cela que l’UX Research et l’UX Design sont étroitement liés : l’UX Research va se concentrer sur les tests utilisateurs tandis que l’UX Designer va pouvoir animer les ateliers, donc endosser le rôle de facilitateur, mais aussi matérialiser les hypothèses d’un point de vue ergonomique grâce aux wireframes.

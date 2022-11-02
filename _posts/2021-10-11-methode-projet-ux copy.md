@@ -38,10 +38,6 @@ Aussi appelée phase de génération, le but de cette étape est de produire des
 
 
 ## **L'évaluation**
-Les solutions produites vont pouvoir êtres testées auprès des utilisateurs et ainsi être validées ou non : c’est ce qu’on appelle les tests utilisateurs. Cette étape permet aussi de récolter des feedbacks afin d’améliorer les travaux réalisés.
+Les prototypes produits vont pouvoir êtres testées auprès d'utilisateurs référents (comité départementaux, ligues régionalles...). Les feedbacks récoltés permettront d'itérer le travail de prototypage, jusqu'à obtenir un livrable fini, prêt pour la phase de développement.
 
 Ce processus systémique peut être adapté selon les besoins du client.
-
-Les phases de recherche, de compréhension et de récolte des besoins utilisateurs occupe une place importante. Il va y avoir également un travail très important au niveau de l’ergonomie, de l’évaluation et de la validation des hypothèses émises lors de l’étape d’idéation par le biais de différents moyens (SUS, tests utilisateurs, attrakdiff…)
-
-C’est en cela que l’UX Research et l’UX Design sont étroitement liés : l’UX Research va se concentrer sur les tests utilisateurs tandis que l’UX Designer va pouvoir animer les ateliers, donc endosser le rôle de facilitateur, mais aussi matérialiser les hypothèses d’un point de vue ergonomique grâce aux wireframes.
