@@ -5,7 +5,7 @@ subtitle: Refonte de l'application de simulation de classement FFT.
 cover-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
 thumbnail-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
 share-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
-tags: [books, test]
+tags: [Méthode, Outils]
 ---
 
 # Les objectifs de l'UX Design

@@ -2,10 +2,10 @@
 layout: post
 title: Projet TEN'UP
 subtitle: Refonte de l'application de simulation de classement FFT.
-cover-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
-thumbnail-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
-share-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
-tags: [books, test]
+cover-img: ../assets/img/TENUP/cover.jpeg
+thumbnail-img: ../assets/img/TENUP/cover.jpeg
+share-img: ../assets/img/TENUP/cover.jpeg
+tags: [UX, UI]
 ---
 
 # Etude cas : TEN'UP - Fédération Française de Tennis
