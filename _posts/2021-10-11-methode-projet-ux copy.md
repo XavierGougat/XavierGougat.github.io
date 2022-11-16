@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Projet TEN'UP
-subtitle: Refonte de l'application de simulation de classement FFT.
+title: Méthodologie autour de l'UX Design
+subtitle: Le cadre de travail pour créer un parcours client simple et efficace
 cover-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
 thumbnail-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg
 share-img: https://www.joannekingcounseling.com/wp-content/uploads/2019/01/145819.jpg

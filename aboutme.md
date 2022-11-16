@@ -4,7 +4,10 @@ title: À propos
 subtitle: Discutons ensemble de vos projets
 ---
 
-Je suis Xavier et je façonne des produits digitaux depuis 2015. Voici mes compétences clefs:
+Je suis Xavier et je façonne des produits digitaux depuis 2015. 
+J'allie des compétences de Product Owner à celles de Product Designer UX/UI.
+
+Voici mes compétences clefs:
 
 - Interviews utilisateurs
 - Ateliers de Design thinking : card sorting, méthode MoSCoW, empathy map, journey map
@@ -21,4 +24,4 @@ D'abord développeur front-end pour une grande banque, j'ai rapidement pris en c
 Mon expérience de Product Owner m'a appris comment créer et maintenir un produit en suivant une roadmap orientée valeur pour le client.
 Depuis 2019, je développe mes compétences en UX/UI Design, et associe mes compétences en création graphique à mon travail dans le product management.
 J'ai obtenu une certification de Product Design à l'École des Gobelins en 2021.
-Je cherche désormais à m'épanouir en tant que Product Designer - UX/UI Designer.
+Je cherche désormais à m'épanouir en tant que Product Owner ou Product Designer - UX/UI.
