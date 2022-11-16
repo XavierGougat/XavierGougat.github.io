@@ -14,7 +14,7 @@ author: Xavier G.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "À propos"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
