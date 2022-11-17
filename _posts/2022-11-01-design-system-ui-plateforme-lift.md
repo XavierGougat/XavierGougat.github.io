@@ -9,4 +9,4 @@ tags: [Design system, UI]
 ---
 
 # LIFT
-
+![cover](../assets/img/LIFT/cover.png)
